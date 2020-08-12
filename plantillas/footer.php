@@ -31,7 +31,7 @@
                         <a href="<?php echo RUTA_PLANCHECKHOUSE ?>" target="_blank">CheckHouse</a>
                     </li>
                     <li>
-                        <a href="<?php echo RUTA_PLANCHECKERS ?>" target="_blank">Checkes</a>
+                        <a href="<?php echo RUTA_PLANCHECKERS ?>" target="_blank">Checkers</a>
                     </li>
                 </ul>
             </div>

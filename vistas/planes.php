@@ -102,8 +102,8 @@ include_once 'plantillas/documento-declaracion.inc.php';
     <div class="u-content-house">
         <div class="grid-items-plan wow fadeIn" data-wow-delay="0.4s">
             <div class="descriptions-plan">
-                <h2>¿Estás pronto a recibir una propiedad nueva?</h2>
-                <p>Conoce nuestros planes de inspección de acuerdo a tus necesidades.</p>
+                <h2>Asegúrate de que todas las observaciones hayan sido levantadas</h2>
+                <p>Este plan verifica los detalles observados en la primera inspección.</p>
             </div>
             <div class="content-plan-items">
                 <div class="plan-items">

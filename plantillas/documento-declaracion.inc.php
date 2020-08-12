@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>HouseCheckers</title>
+    <title>HouseCheckers - Inspección de inmuebles</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="description" content="">
     <meta name="keywords" content="">

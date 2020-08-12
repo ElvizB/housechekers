@@ -194,6 +194,8 @@ b {
 }
 .img-puntos {
   text-align: center;
+  transition: all 0.3s;
+  padding-bottom: 3em;
 }
 .title-flujo {
   padding-bottom: 41px;
@@ -212,6 +214,10 @@ b {
 /*****************************************/
 .img-line {
   text-align: center;
+}
+.list_timeline li {
+  max-width: 100px;
+  margin: auto;
 }
 .list_timeline {
   text-align: center;
@@ -296,4 +302,10 @@ b {
 }
 
 @media screen and (min-width: 1110px) {
+  .img-puntos {
+    padding-bottom: 0em;
+  }
+  .img-puntos:hover {
+    box-shadow: 15px 20px 0px 0px #ffdd00;
+  }
 }

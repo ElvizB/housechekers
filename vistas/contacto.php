@@ -30,42 +30,42 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                         <div class="form-inputs">
                                             <label for="">Nombre</label>
                                             <input type="text" id="nombre" name="nombre" class="form-control"
-                                                placeholder="Nombre">
+                                                placeholder="">
                                         </div>
                                     </div>
                                     <div class="grid-input-two">
                                         <div class="form-inputs">
                                             <label for="">Teléfono</label>
                                             <input type="text" id="telefono" name="telefono" class="form-control"
-                                                placeholder="Teléfono">
+                                                placeholder="">
                                         </div>
                                     </div>
                                     <div class="grid-input-two">
                                         <div class="form-inputs">
                                             <label for="">Correo</label>
                                             <input type="text" id="email" name="email" class="form-control"
-                                                placeholder="Correo">
+                                                placeholder="">
                                         </div>
                                     </div>
                                     <div class="grid-input-two">
                                         <div class="form-inputs">
                                             <label for="">Dirección del hogar a inspeccionar</label>
                                             <input type="text" id="direccion" name="direccion" class="form-control"
-                                                placeholder="Dirección del hogar a inspeccionar">
+                                                placeholder="">
                                         </div>
                                     </div>
                                     <div class="grid-input-two">
                                         <div class="form-inputs">
                                             <label for="">Cantidad m2</label>
                                             <input type="text" id="cantidad" name="cantidad" class="form-control"
-                                                placeholder="Cantidad m2">
+                                                placeholder="">
                                         </div>
                                     </div>
                                     <div class="grid-input-two">
                                         <div class="form-inputs">
                                             <label for="">Cantidad m2 Terraza</label>
                                             <input type="text" id="cterraza" name="cterraza" class="form-control"
-                                                placeholder="Cantidad m2 Terraza">
+                                                placeholder="">
                                         </div>
                                     </div>
 
@@ -73,11 +73,12 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                         <div class="select_form">
                                             <p class="title_planes">Plan Solicitado</p>
                                             <select name="planes" id="planes">
-                                                <option value="" selected disabled>Plan Solicitado</option>
+                                                <option value="" selected disabled>Elija plan de interés</option>
                                                 <option value="Plan Bronce">Plan Bronce</option>
+                                                <option value="Plan Plata">Plan Plata</option>
                                                 <option value="Plan Oro">Plan Oro</option>
                                                 <option value="Plan CheckHouse">Plan CheckHouse</option>
-                                                <option value="Plan Checker">Plan Checker</option>
+                                                <option value="Plan Checker">Plan Checkers</option>
 
                                             </select>
                                         </div>

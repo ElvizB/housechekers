@@ -20,8 +20,38 @@ include_once 'plantillas/documento-declaracion.inc.php';
 
 <section class="about">
     <div class="u-content-house">
-        <div class="title-about wow fadeIn" data-wow-delay="0.4s">
-            <h2>house checkers</h2>
+        <div class="">
+
+        </div>
+    </div>
+</section>
+
+<section class="bg-nav-list wow fadeIn" data-wow-delay="0.4s">
+    <div class="u-content-house">
+        <div class="grid-tab">
+            <ul class="nav nav-tabs md-tabs nav_link_nosotros">
+                <li class="nav-item">
+                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                        aria-controls="pills-home" aria-selected="true">
+                        <span>nosotros</span>
+                    </a>
+                </li>
+
+                <li class=" nav-item">
+                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                        aria-controls="pills-profile" aria-selected="false">
+                        <span>misión</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                        aria-controls="pills-contact" aria-selected="false">
+                        <span>visión</span>
+                    </a>
+                </li>
+            </ul>
+
         </div>
     </div>
 </section>
@@ -73,35 +103,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
     </div>
 </section>
 
-<section class="bg-nav-list wow fadeIn" data-wow-delay="0.4s">
-    <div class="u-content-house">
-        <div class="grid-tab">
-            <ul class="nav nav-tabs md-tabs nav_link_nosotros">
-                <li class="nav-item">
-                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
-                        aria-controls="pills-home" aria-selected="true">
-                        <span>nosotros</span>
-                    </a>
-                </li>
 
-                <li class=" nav-item">
-                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
-                        aria-controls="pills-profile" aria-selected="false">
-                        <span>misión</span>
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
-                        aria-controls="pills-contact" aria-selected="false">
-                        <span>visión</span>
-                    </a>
-                </li>
-            </ul>
-
-        </div>
-    </div>
-</section>
 
 
 

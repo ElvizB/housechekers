@@ -125,28 +125,28 @@
 .bg-plan-bronce {
   background: url(../../images/planes/bg_bronce.png) no-repeat top;
   background-size: cover;
-  height: 76vh;
+  height: 50vh;
 }
 
 .bg-plan-plata {
   background: url(../../images/planes/bg_plata.png) no-repeat top;
   background-size: cover;
-  height: 76vh;
+  height: 50vh;
 }
 .bg-plan-oro {
   background: url(../../images/planes/bg_oro.png) no-repeat top;
   background-size: cover;
-  height: 76vh;
+  height: 50vh;
 }
 .bg-plan-house {
   background: url(../../images/planes/bg_house.png) no-repeat top;
   background-size: cover;
-  height: 76vh;
+  height: 50vh;
 }
 .bg-plan-checkers {
   background: url(../../images/planes/bg_checkers.png) no-repeat top;
   background-size: cover;
-  height: 76vh;
+  height: 50vh;
 }
 
 .subtitle-planes p {

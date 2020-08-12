@@ -1,7 +1,7 @@
 .bg-banner-about {
   background: url(../../images/nosotros/bg_nosotros.png) no-repeat top;
   background-size: cover;
-  height: 60vh;
+  height: 40vh;
 }
 .about {
   padding: 50px 0 45px;
@@ -39,7 +39,7 @@
   margin: 0;
 }
 .title-consulta p::before {
-  content: "preguntanos";
+  content: "pregúntanos";
   border-top: 3px solid #ffdd00;
   padding-top: 0.5em;
 }
@@ -173,7 +173,7 @@
     letter-spacing: 25px;
   }
   .about {
-    padding: 100px 0 45px;
+    padding: 0px 0 45px;
   }
 }
 
