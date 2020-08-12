@@ -167,6 +167,7 @@
   display: grid;
   row-gap: 2em;
   padding: 28px 0 35px;
+  justify-content: center;
 }
 .grid-items-inspeccion2 {
   display: grid;
@@ -290,6 +291,7 @@
     padding: 28px 0 70px;
     flex-wrap: wrap;
     gap: 0;
+    justify-content: center;
   }
   .grid-items-inspeccion2 {
     display: flex;
@@ -330,4 +332,7 @@
 }
 
 @media screen and (min-width: 1110px) {
+  .grid-items-inspeccion {
+    justify-content: initial;
+  }
 }

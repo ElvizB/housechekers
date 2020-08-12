@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
-    <meta name="theme-color" content="#3a66a7">
+    <meta name="theme-color" content="#ffdd00">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo RUTA_IMG?>ico.png">
     <!-- Font Awesome -->
@@ -28,18 +28,6 @@
     <link href="<?php echo RUTA_CSS?>menu/index.css" rel="stylesheet">
 
 </head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VQLJ3Y188Z"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-
-function gtag() {
-    dataLayer.push(arguments);
-}
-gtag('js', new Date());
-
-gtag('config', 'G-VQLJ3Y188Z');
-</script>
 
 <body class="oculto">
 

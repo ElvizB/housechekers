@@ -159,13 +159,13 @@ include_once 'plantillas/documento-declaracion.inc.php';
                 <div class="u-btn-iz">
                     <a href="<?php echo RUTA_PLANPLATA ?>">
                         <img src="<?php echo RUTA_IMG?>planes/iz.png" draggable="false" class="img-fluid" />
-                        <span>Ir al <b> Plan Bronce</b></span>
+                        <span>Ir al <b> Plan Plata</b></span>
                     </a>
                 </div>
 
                 <div class="u-btn-de">
                     <a href="<?php echo RUTA_PLANCHECKHOUSE ?>">
-                        <span>Ir al <b>Plan Oro</b></span>
+                        <span>Ir al <b>Plan CheckHouse</b></span>
                         <img src="<?php echo RUTA_IMG?>planes/de.png" draggable="false" class="img-fluid" />
                     </a>
                 </div>
