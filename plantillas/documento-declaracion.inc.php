@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>HouseCkers</title>
+    <title>HouseCheckers</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -18,17 +18,14 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.8/css/mdb.min.css" rel="stylesheet">
 
-    <link href="<?php echo RUTA_CSS?>owl/owl.carousel.min.css" rel="stylesheet">
-    <link href="<?php echo RUTA_CSS?>owl/owl.theme.default.min.css" rel="stylesheet">
 
     <link href="<?php echo RUTA_CSS?>preload/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>index.css" rel="stylesheet">
-    <link href="<?php echo RUTA_CSS?>menu/index.css" rel="stylesheet">
-    <link href="<?php echo RUTA_CSS?>servicios/index.css" rel="stylesheet">
-    <link href="<?php echo RUTA_CSS?>contacto/index.css" rel="stylesheet">
-    <link href="<?php echo RUTA_CSS?>locales/index.css" rel="stylesheet">
     <link href="<?php echo RUTA_CSS?>footer/index.css" rel="stylesheet">
-
+    <link href="<?php echo RUTA_CSS?>nosotros/index.css" rel="stylesheet">
+    <link href="<?php echo RUTA_CSS?>planes/index.css" rel="stylesheet">
+    <link href="<?php echo RUTA_CSS?>contacto/index.css" rel="stylesheet">
+    <link href="<?php echo RUTA_CSS?>menu/index.css" rel="stylesheet">
 
 </head>
 <!-- Global site tag (gtag.js) - Google Analytics -->

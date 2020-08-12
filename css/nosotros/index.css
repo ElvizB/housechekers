@@ -1,0 +1,181 @@
+.bg-banner-about {
+  background: url(../../images/nosotros/bg_nosotros.png) no-repeat top;
+  background-size: cover;
+  height: 60vh;
+}
+.about {
+  padding: 50px 0 45px;
+}
+.title-about {
+  text-align: center;
+}
+.title-about h2 {
+  font-family: "Gilroy Medium";
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.consulta {
+  padding: 0 0 100px;
+}
+.bg-consulta {
+  background: url(../../images/nosotros/bg.png) no-repeat top;
+  background-size: cover;
+  height: 60vh;
+}
+.content-consulta {
+  display: grid;
+  height: 100%;
+  align-content: center;
+  padding: 0 20px;
+}
+.title-consulta p {
+  text-align: center;
+  font-family: "Gilroy Regular";
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin: 0;
+}
+.title-consulta p::before {
+  content: "preguntanos";
+  border-top: 3px solid #ffdd00;
+  padding-top: 0.5em;
+}
+.content-consulta h1 {
+  text-align: center;
+  font-family: "Gilroy Black";
+  color: white;
+  font-size: 40px;
+  padding-bottom: 0.5em;
+}
+.content-consulta p {
+  font-family: "Gilroy Regular";
+  font-size: 15px;
+  color: white;
+  max-width: 450px;
+  margin: auto;
+  text-align: center;
+}
+.bg-contacto {
+  width: 170px;
+  background: #ffdd00;
+  height: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.bg-contacto a {
+  font-family: "Gilroy Medium";
+  color: black;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.content-btncontacto {
+  display: grid;
+  justify-content: center;
+  padding-top: 35px;
+}
+.descriptions-nosotros {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.descriptions-nosotros h1 {
+  font-family: "Gilroy Black";
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.descriptions-nosotros p {
+  font-family: "Gilroy Regular";
+  font-size: 13px;
+  max-width: 650px;
+  margin: auto;
+}
+.descriptions-vision {
+  padding-bottom: 30px;
+}
+.descriptions-vision h1 {
+  font-family: "Gilroy Black";
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.list-vision {
+  padding-left: 2em;
+  list-style-image: url(./../../images/nosotros/cuadro.png);
+  font-size: 13px;
+  color: black;
+  font-family: "Gilroy Regular";
+  max-width: 550px;
+  margin: auto;
+}
+.grid-tab {
+  display: grid;
+  justify-content: center;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: black;
+  border-color: transparent;
+  border-bottom: 3px solid #ffdd00;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border-color: transparent;
+  border-bottom: 3px solid #ffdd00;
+}
+.nav-tabs {
+  border-bottom: transparent;
+}
+.nav_link_nosotros li {
+  padding-right: 1em;
+}
+.nav_link_nosotros li a {
+  font-family: "Gilroy Regular";
+  font-size: 13px;
+  text-transform: uppercase;
+  color: black;
+}
+.bg-nav-list {
+  padding-bottom: 40px;
+}
+.bg-info-nosotros {
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .content-consulta {
+    padding: 0 0;
+  }
+  .content-consulta h1 {
+    font-size: 60px;
+  }
+  .nav_link_nosotros li {
+    padding-right: 3em;
+  }
+  .bg-info-nosotros {
+    padding: 0 0;
+  }
+  .descriptions-nosotros h1 {
+    font-size: 60px;
+    padding-bottom: 55px;
+  }
+  .descriptions-vision h1 {
+    font-size: 60px;
+    padding-bottom: 55px;
+  }
+  .title-about h2 {
+    letter-spacing: 25px;
+  }
+  .about {
+    padding: 100px 0 45px;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+}

@@ -1,0 +1,153 @@
+.contacto {
+  background: #f0f0f0;
+  margin-bottom: 50px;
+}
+.bg-contacto2 {
+  background: url(../../images/contacto/bg_contacto.png) no-repeat top;
+  height: 140vh;
+  background-position: left;
+  padding: 0 20px;
+}
+.content-contacto-info {
+  display: grid;
+  height: 100%;
+  align-content: center;
+}
+.descriptions-contacto {
+  text-align: center;
+  max-width: 550px;
+  margin: auto;
+}
+.descriptions-contacto h2 {
+  font-family: "Gilroy Medium";
+  font-size: 20px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.descriptions-contacto h1 {
+  font-family: "Gilroy Black";
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.descriptions-contacto p {
+  font-family: "Gilroy Regular";
+  font-size: 13px;
+}
+.list_contacto {
+  padding-left: 2em;
+  list-style-image: url(./../../images/contacto/flecha.png);
+  font-size: 13px;
+  color: black;
+  font-family: "Gilroy Regular";
+}
+.content-info-formulario span {
+  font-family: "Gilroy Regular";
+  font-weight: bold;
+  font-size: 13px;
+  padding-left: 0.8em;
+}
+.grid-formulario {
+  display: grid;
+}
+.formulario {
+  display: grid;
+  justify-content: center;
+}
+.grid-btn-enviar {
+  display: grid;
+  justify-content: center;
+}
+.btn-enviar-contacto {
+  width: 170px;
+  background: #ffdd00;
+  height: 50px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 17px;
+  font-family: "Gilroy Regular";
+  font-weight: bold;
+}
+.form-inputs {
+  text-align: center;
+  padding-bottom: 18px;
+}
+.form-inputs label {
+  font-family: "Gilroy Regular";
+  font-size: 13px;
+  font-weight: bold;
+}
+.form-inputs input {
+  border: transparent;
+  font-family: "Gilroy Regular";
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+}
+.title_planes {
+  font-family: "Gilroy Regular";
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+.select_form {
+  position: relative;
+}
+.select_form select {
+  text-align: center;
+  height: 42px;
+  font-size: 13px;
+  width: 100%;
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  font-family: "Gilroy Regular";
+  border-radius: 10px;
+  padding: 0px 100px;
+}
+.select_form::after {
+  content: "";
+  position: absolute;
+  right: 8px;
+  top: 80%;
+  margin-top: -12px;
+  border-top: 8px solid #ffdd00;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  pointer-events: none;
+}
+@media screen and (min-width: 768px) {
+  .descriptions-contacto h1 {
+    font-size: 60px;
+    padding-bottom: 60px;
+  }
+  .descriptions-contacto h2 {
+    letter-spacing: 20px;
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
+  .bg-contacto2 {
+    height: 125vh;
+    padding: 0 0;
+  }
+  .grid-formulario {
+    display: grid;
+    justify-content: flex-end;
+    grid-template-columns: 55% 34%;
+    grid-gap: 6em;
+  }
+  .formulario {
+    justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+  .grid-formulario {
+    grid-template-columns: 65% 20%;
+    grid-gap: 8em;
+  }
+}

@@ -1,0 +1,333 @@
+.grid-planes {
+  text-align: center;
+  max-width: 550px;
+  margin: auto;
+}
+.grid-planes h2 {
+  letter-spacing: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Gilroy Medium";
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.grid-planes h1 {
+  font-size: 40px;
+  padding-bottom: 10px;
+  font-family: "Gilroy Black";
+  text-align: center;
+}
+.grid-planes p {
+  font-family: "Gilroy Regular";
+  font-size: 13px;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.grid-items-plan {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  row-gap: 2em;
+}
+.descriptions-plan h2 {
+  font-family: "Gilroy Black";
+  font-size: 20px;
+}
+.descriptions-plan p {
+  font-family: "Gilroy Regular";
+  font-size: 13px;
+}
+
+.plan-items {
+  position: relative;
+}
+.content-info-plan {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.description-info-plan {
+  display: grid;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+}
+.description-info-plan h2 {
+  font-family: "Gilroy Regular";
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+.description-info-plan h1 {
+  font-family: "Gilroy Black";
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+.content-info-plan a {
+  background: transparent;
+  text-align: center;
+  width: 123px;
+  height: 30px;
+  border-radius: 20px;
+  display: grid;
+  align-items: center;
+  color: white;
+  border: 2px solid white;
+  font-family: "Gilroy Regular";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.content-info-plan a:hover {
+  background: #ffdd00;
+  color: #004d9d;
+  border: 1px solid #ffdd00;
+}
+.bg-planes-items {
+  padding: 0 20px 45px;
+}
+.bg-btn-vermas {
+  display: grid;
+  justify-content: center;
+}
+.planes {
+  padding: 0 20px;
+}
+/* plan bronce */
+.u-title-plan {
+  display: grid;
+  height: 100%;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.u-title-plan p {
+  margin: 0;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Gilroy Regular";
+}
+.u-title-plan h1 {
+  font-family: "Gilroy Black";
+  font-size: 60px;
+  color: white;
+}
+.bg-descriptions-planes {
+  padding: 35px 0 100px;
+}
+.bg-plan-bronce {
+  background: url(../../images/planes/bg_bronce.png) no-repeat top;
+  background-size: cover;
+  height: 76vh;
+}
+
+.bg-plan-plata {
+  background: url(../../images/planes/bg_plata.png) no-repeat top;
+  background-size: cover;
+  height: 76vh;
+}
+.bg-plan-oro {
+  background: url(../../images/planes/bg_oro.png) no-repeat top;
+  background-size: cover;
+  height: 76vh;
+}
+.bg-plan-house {
+  background: url(../../images/planes/bg_house.png) no-repeat top;
+  background-size: cover;
+  height: 76vh;
+}
+.bg-plan-checkers {
+  background: url(../../images/planes/bg_checkers.png) no-repeat top;
+  background-size: cover;
+  height: 76vh;
+}
+
+.subtitle-planes p {
+  font-family: "Gilroy Regular";
+  font-size: 13px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+.info-inspeccion p {
+  margin: 0;
+  font-family: "Gilroy Regular";
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.grid-items-inspeccion {
+  display: grid;
+  row-gap: 2em;
+  padding: 28px 0 35px;
+}
+.grid-items-inspeccion2 {
+  display: grid;
+  row-gap: 2em;
+  padding: 28px 0 35px;
+  justify-content: center;
+}
+
+.item-inspeccion {
+  width: 290px;
+  height: 80px;
+  border: 1px solid #a5c1cf;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-content: center;
+  padding: 0 20px;
+  align-items: center;
+}
+.grid-resumen-plan {
+  display: grid;
+  align-items: center;
+  padding: 0 20px;
+}
+.title-resumen h1 {
+  font-family: "Gilroy Black";
+  font-size: 33px;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+.info-resumen p {
+  font-family: "Gilroy Regular";
+  font-size: 13px;
+  text-align: justify;
+  margin: 0;
+}
+.content-botones {
+  max-width: 1500px;
+  margin: auto;
+  padding: 40px 5px 0;
+  height: 100%;
+}
+.grid-botones {
+  display: grid;
+  align-items: center;
+  row-gap: 4em;
+  padding: 0 20px;
+}
+.grid-medidas {
+  text-align: center;
+}
+.u-btn-iz span {
+  color: #a5c1cf;
+  padding-left: 0.5em;
+  font-size: 12px;
+}
+.u-btn-de {
+  text-align: end;
+}
+.u-btn-de span {
+  color: #a5c1cf;
+  padding-right: 0.5em;
+  font-size: 12px;
+}
+.content-medidas {
+  max-width: 280px;
+  margin: auto;
+  height: 80px;
+  background: #ffdd00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content-medidas h1 {
+  font-family: "Gilroy Black";
+  font-size: 33px;
+  margin: 0;
+}
+.content-medidas p {
+  font-family: "Gilroy Medium";
+  font-size: 18px;
+  margin: 0;
+}
+.grid-movil-btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.w-grid-btns {
+  display: none;
+}
+.img-inspeccion {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .planes {
+    padding: 0 0;
+  }
+  .grid-planes h2 {
+    letter-spacing: 20px;
+    font-size: 25px;
+    padding-bottom: 40px;
+  }
+  .grid-items-plan {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid-planes h1 {
+    font-size: 60px;
+    padding-bottom: 30px;
+  }
+  .grid-planes p {
+    padding-bottom: 50px;
+  }
+  .bg-planes-items {
+    padding: 0 0 90px;
+  }
+  .grid-items-inspeccion {
+    display: flex;
+    padding: 28px 0 70px;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .grid-items-inspeccion2 {
+    display: flex;
+    padding: 28px 0 70px;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .grid-resumen-plan {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 10px;
+  }
+  .grid-botones {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0em;
+    padding: 0 0;
+  }
+  .u-btn-de span {
+    padding-right: 1em;
+    font-size: 22px;
+  }
+  .u-btn-iz span {
+    padding-right: 1em;
+    font-size: 22px;
+  }
+  .content-botones {
+    padding: 80px 5px 0;
+  }
+  .title-resumen h1 {
+    text-align: initial;
+    padding-bottom: 0em;
+  }
+  .w-grid-btns {
+    display: block;
+  }
+  .m-grid-btns {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+}

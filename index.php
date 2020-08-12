@@ -19,15 +19,30 @@ if($partes_ruta[0] == 'houseckeers.herokuapp.com'){
     $ruta_elegida = 'vistas/home.php';
   }else if (count($partes_ruta) == 2){
     switch($partes_ruta[1]){
-      case 'servicios':
-        $ruta_elegida = 'vistas/servicios.php';
+      case 'sobre-nosotros':
+        $ruta_elegida = 'vistas/sobre-nosotros.php';
+        break;
+      case 'planes':
+          $ruta_elegida = 'vistas/planes.php';
+          break;    
+      case 'plan-bronce':
+            $ruta_elegida = 'vistas/plan-bronce.php';
+            break; 
+      case 'plan-plata':
+        $ruta_elegida = 'vistas/plan-plata.php';
+        break; 
+      case 'plan-oro':
+        $ruta_elegida = 'vistas/plan-oro.php';
+        break;
+      case 'plan-checkhouse':
+        $ruta_elegida = 'vistas/plan-checkhouse.php';
+        break;
+      case 'plan-checkers':
+        $ruta_elegida = 'vistas/plan-checkers.php';
         break;
       case 'contacto':
         $ruta_elegida = 'vistas/contacto.php';
-        break;
-        case 'locales':
-          $ruta_elegida = 'vistas/locales.php';
-          break;      
+        break;    
     }
   }
 }
