@@ -62,8 +62,9 @@ include_once 'plantillas/documento-declaracion.inc.php';
                     <div class="descriptions-nosotros">
                         <h1>nosotros</h1>
                         <p>Simplificamos el proceso de entrega de la propiedad que has comprado. Disminuimos la
-                            posibilidad que inviertas tiempo y dinero en reparaciones y correcciones de tu departamento
-                            nuevo haciendo que la inmobiliaria asuma los el levantamiento de las observaciones
+                            posibilidad de que inviertas tiempo y dinero en reparaciones y correcciones de tu
+                            departamento
+                            nuevo, haciendo que la inmobiliaria asuma el levantamiento de las observaciones
                             encontradas.
                         </p>
                     </div>
@@ -75,7 +76,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                         <h1>misión</h1>
                         <p>
                             Somos un equipo de profesionales que busca brindar seguridad y tranquilidad al cliente en la
-                            recepción de su inmueble a través de inspecciones técnicas respaldadas por el empleo de
+                            recepción de su inmueble, a través de inspecciones técnicas respaldadas por el empleo de
                             tecnología.
 
                         </p>
@@ -91,7 +92,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                 inmuebles.</li>
                             <li>Ser la empresa líder y referente en la inspección de calidad del inmueble previo a su
                                 entrega. </li>
-                            <li>Promover la estandarización de tolerancias de acabados arquitectónicos e instalaciones
+                            <li>Promover la estandarización de tolerancia de acabados arquitectónicos e instalaciones
                                 dentro del negocio inmobiliario.</li>
                         </ul>
                     </div>

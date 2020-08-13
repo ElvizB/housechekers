@@ -7,7 +7,7 @@
                     <p></p>
                 </div>
                 <h1>¿Te interesa este plan?</h1>
-                <p>Póngase en contacto con nosotros en cualquier momento para averiguar cómo podemos ayudarle.</p>
+                <p>Ponte en contacto con nosotros en cualquier momento para averiguar cómo podemos ayudarle.</p>
                 <div class="content-btncontacto">
                     <div class="bg-contacto">
                         <a href="<?php echo RUTA_CONTACTO ?>">

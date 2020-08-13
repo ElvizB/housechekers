@@ -16,9 +16,9 @@ include_once 'plantillas/documento-declaracion.inc.php';
                 <div class="descriptions-contacto">
                     <h2>house checker</h2>
                     <h1>Contáctenos</h1>
-                    <p>Utilice el siguiente formulario para ponerse en contacto con nosotros sobre sus consultas, nos
-                        pondremos
-                        en contacto con usted lo antes posible.
+                    <p>Utiliza el siguiente formulario para ponerte en contacto con nosotros.
+                        <br>
+                        Nuestros asesores se contactarán contigo lo antes posible.
                     </p>
                 </div>
                 <div class="grid-formulario wow fadeIn" data-wow-delay="0.4s">
@@ -28,7 +28,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                 <form id="" class="formulario" role="form" action="" method="POST">
                                     <div class="grid-input-two">
                                         <div class="form-inputs">
-                                            <label for="">Nombre</label>
+                                            <label for="">Nombre y Apellido</label>
                                             <input type="text" id="nombre" name="nombre" class="form-control"
                                                 placeholder="">
                                         </div>
