@@ -5,13 +5,13 @@
                 <h2>Nosotros</h2>
                 <ul class="u-list-footer">
                     <li>
-                        <a href="<?php echo RUTA_MOSOTROS ?>" target="_blank">Empresa</a>
+                        <a href="<?php echo RUTA_MOSOTROS ?>">Empresa</a>
                     </li>
                     <li>
-                        <a href="<?php echo RUTA_MOSOTROS ?>" target="_blank">Misión</a>
+                        <a href="<?php echo RUTA_MOSOTROS ?>">Misión</a>
                     </li>
                     <li>
-                        <a href="<?php echo RUTA_MOSOTROS ?>" target="_blank">Visión</a>
+                        <a href="<?php echo RUTA_MOSOTROS ?>">Visión</a>
                     </li>
                 </ul>
             </div>
@@ -19,19 +19,19 @@
                 <h2>Planes</h2>
                 <ul class="u-list-footer">
                     <li>
-                        <a href="<?php echo RUTA_PLANBRONCE ?>" target="_blank">Bronce</a>
+                        <a href="<?php echo RUTA_PLANBRONCE ?>">Bronce</a>
                     </li>
                     <li>
-                        <a href="<?php echo RUTA_PLANPLATA ?>" target="_blank">Plata</a>
+                        <a href="<?php echo RUTA_PLANPLATA ?>">Plata</a>
                     </li>
                     <li>
-                        <a href="<?php echo RUTA_PLANORO ?>" target="_blank">Oro</a>
+                        <a href="<?php echo RUTA_PLANORO ?>">Oro</a>
                     </li>
                     <li>
-                        <a href="<?php echo RUTA_PLANCHECKHOUSE ?>" target="_blank">CheckHouse</a>
+                        <a href="<?php echo RUTA_PLANCHECKHOUSE ?>">CheckHouse</a>
                     </li>
                     <li>
-                        <a href="<?php echo RUTA_PLANCHECKERS ?>" target="_blank">Checkers</a>
+                        <a href="<?php echo RUTA_PLANCHECKERS ?>">Checkers</a>
                     </li>
                 </ul>
             </div>

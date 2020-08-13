@@ -7,16 +7,16 @@
         </div>
         <ul class="list_navbar">
             <li>
-                <a href="<?php echo SERVIDOR ?>" target="_blank">inicio</a>
+                <a href="<?php echo SERVIDOR ?>">inicio</a>
             </li>
             <li>
-                <a href="<?php echo RUTA_MOSOTROS ?>" target="_blank">sobre nosotros</a>
+                <a href="<?php echo RUTA_MOSOTROS ?>">sobre nosotros</a>
             </li>
             <li>
-                <a href="<?php echo RUTA_PLANES ?>" target="_blank">planes</a>
+                <a href="<?php echo RUTA_PLANES ?>">planes</a>
             </li>
             <li>
-                <a href="<?php echo RUTA_CONTACTO ?>" target="_blank">contacto</a>
+                <a href="<?php echo RUTA_CONTACTO ?>">contacto</a>
             </li>
         </ul>
     </div>
