@@ -32,7 +32,8 @@ include_once 'plantillas/documento-declaracion.inc.php';
             </div>
             <div class="content-plan-items">
                 <div class="plan-items">
-                    <img src="<?php echo RUTA_IMG?>planes/bronce.png" draggable="false" class="img-fluid" />
+                    <img loading="lazy" src="<?php echo RUTA_IMG?>planes/bronce.png" draggable="false"
+                        class="img-fluid" />
                     <div class="content-info-plan">
                         <div class="description-info-plan">
                             <h2>plan</h2>
@@ -44,7 +45,8 @@ include_once 'plantillas/documento-declaracion.inc.php';
             </div>
             <div class="content-plan-items">
                 <div class="plan-items">
-                    <img src="<?php echo RUTA_IMG?>planes/plata.png" draggable="false" class="img-fluid" />
+                    <img loading="lazy" src="<?php echo RUTA_IMG?>planes/plata.png" draggable="false"
+                        class="img-fluid" />
                     <div class="content-info-plan">
                         <div class="description-info-plan">
                             <h2>plan</h2>
@@ -56,7 +58,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
             </div>
             <div class="content-plan-items">
                 <div class="plan-items">
-                    <img src="<?php echo RUTA_IMG?>planes/oro.png" draggable="false" class="img-fluid" />
+                    <img loading="lazy" src="<?php echo RUTA_IMG?>planes/oro.png" draggable="false" class="img-fluid" />
                     <div class="content-info-plan">
                         <div class="description-info-plan">
                             <h2>plan</h2>
@@ -79,7 +81,8 @@ include_once 'plantillas/documento-declaracion.inc.php';
             </div>
             <div class="content-plan-items">
                 <div class="plan-items">
-                    <img src="<?php echo RUTA_IMG?>planes/plan_house.png" draggable="false" class="img-fluid" />
+                    <img loading="lazy" src="<?php echo RUTA_IMG?>planes/plan_house.png" draggable="false"
+                        class="img-fluid" />
                     <div class="content-info-plan">
                         <div class="description-info-plan">
                             <h2>plan</h2>
@@ -107,7 +110,8 @@ include_once 'plantillas/documento-declaracion.inc.php';
             </div>
             <div class="content-plan-items">
                 <div class="plan-items">
-                    <img src="<?php echo RUTA_IMG?>planes/plan_checkers.png" draggable="false" class="img-fluid" />
+                    <img loading="lazy" src="<?php echo RUTA_IMG?>planes/plan_checkers.png" draggable="false"
+                        class="img-fluid" />
                     <div class="content-info-plan">
                         <div class="description-info-plan">
                             <h2>plan</h2>

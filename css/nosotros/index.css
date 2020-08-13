@@ -1,7 +1,6 @@
-.bg-banner-about {
-  background: url(../../images/nosotros/bg_nosotros.png) no-repeat top;
-  background-size: cover;
-  height: 40vh;
+.bg-banner-about img {
+  width: 100%;
+  object-fit: cover;
 }
 .about {
   padding: 50px 0 45px;
@@ -20,9 +19,18 @@
   padding: 0 0 100px;
 }
 .bg-consulta {
-  background: url(../../images/nosotros/bg.png) no-repeat top;
-  background-size: cover;
-  height: 60vh;
+  position: relative;
+}
+.bg-consulta img {
+  width: 100%;
+  object-fit: cover;
+}
+.center-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
 .content-consulta {
   display: grid;

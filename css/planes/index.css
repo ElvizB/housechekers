@@ -123,30 +123,39 @@
   padding: 35px 0 100px;
 }
 .bg-plan-bronce {
-  background: url(../../images/planes/bg_bronce.png) no-repeat top;
-  background-size: cover;
-  height: 50vh;
+  position: relative;
 }
-
+.bg-plan-bronce img {
+  width: 100%;
+  object-fit: cover;
+}
 .bg-plan-plata {
-  background: url(../../images/planes/bg_plata.png) no-repeat top;
-  background-size: cover;
-  height: 50vh;
+  position: relative;
+}
+.bg-plan-plata img {
+  width: 100%;
+  object-fit: cover;
 }
 .bg-plan-oro {
-  background: url(../../images/planes/bg_oro.png) no-repeat top;
-  background-size: cover;
-  height: 50vh;
+  position: relative;
+}
+.bg-plan-oro img {
+  width: 100%;
+  object-fit: cover;
 }
 .bg-plan-house {
-  background: url(../../images/planes/bg_house.png) no-repeat top;
-  background-size: cover;
-  height: 50vh;
+  position: relative;
+}
+.bg-plan-house img {
+  width: 100%;
+  object-fit: cover;
 }
 .bg-plan-checkers {
-  background: url(../../images/planes/bg_checkers.png) no-repeat top;
-  background-size: cover;
-  height: 50vh;
+  position: relative;
+}
+.bg-plan-checkers img {
+  width: 100%;
+  object-fit: cover;
 }
 
 .subtitle-planes p {

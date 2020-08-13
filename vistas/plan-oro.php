@@ -11,7 +11,8 @@ include_once 'plantillas/documento-declaracion.inc.php';
 
 <section>
     <div class="bg-plan-oro">
-        <div class="u-content-house">
+        <img loading="lazy" src="<?php echo RUTA_IMG?>planes/bg_oro.png" draggable="false" height="529" />
+        <div class="center-info wow fadeIn" data-wow-delay="0.4s">
             <div class="u-title-plan">
                 <p>plan</p>
                 <h1>Oro</h1>
@@ -23,10 +24,10 @@ include_once 'plantillas/documento-declaracion.inc.php';
 <section class="bg-descriptions-planes">
     <div class="u-content-house">
         <div class="descriptions-planes">
-            <div class="subtitle-planes">
+            <div class="subtitle-planes wow fadeIn" data-wow-delay="0.4s">
                 <p>Incluye las siguientes inspecciones</p>
             </div>
-            <div class="grid-items-inspeccion">
+            <div class="grid-items-inspeccion wow fadeIn" data-wow-delay="0.4s">
                 <div class="item-inspeccion">
                     <div class="img-inspeccion">
                         <img src="<?php echo RUTA_IMG?>planes/i_1.png" draggable="false" class="img-fluid" />
@@ -108,7 +109,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                     </div>
                 </div>
             </div>
-            <div class="grid-resumen-plan">
+            <div class="grid-resumen-plan wow fadeIn" data-wow-delay="0.4s">
                 <div class="title-resumen">
                     <h1>Resumen del plan</h1>
                 </div>
@@ -124,7 +125,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
         </div>
     </div>
 
-    <div class="content-botones w-grid-btns">
+    <div class="content-botones w-grid-btns wow fadeIn" data-wow-delay="0.4s">
         <div class="grid-botones">
             <div class="u-btn-iz">
                 <a href="<?php echo RUTA_PLANPLATA ?>">
@@ -147,7 +148,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
         </div>
     </div>
 
-    <div class="content-botones m-grid-btns">
+    <div class="content-botones m-grid-btns wow fadeIn" data-wow-delay="0.4s">
         <div class="grid-botones">
             <div class="grid-medidas">
                 <div class="content-medidas">

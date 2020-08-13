@@ -78,10 +78,20 @@ b {
   font-size: 16px;
 }
 /********************************************/
+.p-de {
+  padding: 0 20px;
+}
+.derechos {
+}
 .bg-derechos {
-  background: url(../images/home/bg-derechos.png) no-repeat top;
+  position: relative;
+}
+.bg-derechos img {
+  width: 100%;
+  object-fit: cover;
+  /* background: url(../images/home/bg-derechos.png) no-repeat top;
   background-size: cover;
-  height: 60vh;
+  height: 60vh; */
 }
 .content-descriptions {
   display: grid;
@@ -94,7 +104,7 @@ b {
   text-align: center;
   font-size: 13px;
   text-transform: uppercase;
-  padding: 0 0 30px;
+  padding: 0 0 5px;
 }
 .title-derechos h6::before {
   content: "conoce";
@@ -108,7 +118,7 @@ b {
   font-size: 48px;
   text-align: center;
   text-transform: uppercase;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 .info-derechos {
   display: grid;
@@ -253,6 +263,19 @@ b {
 .w-timeline {
   display: none;
 }
+.center-info-home {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.content-info-home {
+  display: grid;
+  justify-content: center;
+  max-width: 900px;
+  margin: auto;
+  height: 100%;
+}
 
 @media screen and (min-width: 768px) {
   .servicio {
@@ -298,6 +321,13 @@ b {
   }
   .m-timeline {
     display: none;
+  }
+
+  .subtitle-derechos h1 {
+    padding-bottom: 40px;
+  }
+  .title-derechos {
+    padding: 0 0 30px;
   }
 }
 

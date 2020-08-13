@@ -12,9 +12,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
 
 <section class="banner-about">
     <div class="bg-banner-about">
-        <div>
-
-        </div>
+        <img loading="lazy" src="<?php echo RUTA_IMG?>nosotros/bg_nosotros.png" draggable="false" height="376" />
     </div>
 </section>
 
