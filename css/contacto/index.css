@@ -37,7 +37,7 @@
 }
 .list_contacto {
   padding-left: 2em;
-  list-style-image: url(./../../images/contacto/flecha.png);
+  list-style: none;
   font-size: 13px;
   color: black;
   font-family: "Gilroy Regular";
@@ -126,6 +126,9 @@
   padding-top: 1em;
 }
 @media screen and (min-width: 768px) {
+  .list_contacto {
+    list-style-image: url(./../../images/contacto/flecha.png);
+  }
   .info-formulario {
     text-align: initial;
     padding-top: 0em;
