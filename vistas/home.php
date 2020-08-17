@@ -112,143 +112,147 @@ include_once 'plantillas/documento-declaracion.inc.php';
 
 <section class=" servicio">
     <div class="bg-servicio">
-        <div class="u-content-house">
-            <div class="content-items-servicios">
-                <div class="items-servicios wow fadeIn" data-wow-delay="0.4s">
-                    <div class="img-puntos">
-                        <img loading="lazy" src="<?php echo RUTA_IMG?>home/puntos.png" draggable="false"
-                            class="img-fluid" />
-                    </div>
-                    <div class="grid-puntos">
-                        <div class="title-puntos">
-                            <h2>
-                                puntos a inspeccionar
-                            </h2>
+        <img loading="lazy" src="<?php echo RUTA_IMG?>home/bg_hc.png" draggable="false" height="1201"
+            class="bgser-img" />
+        <div class="center-info-home">
+            <div class="u-content-house">
+                <div class="content-items-servicios">
+                    <div class="items-servicios wow fadeIn" data-wow-delay="0.4s">
+                        <div class="img-puntos">
+                            <img loading="lazy" src="<?php echo RUTA_IMG?>home/puntos.png" draggable="false"
+                                class="img-fluid" />
                         </div>
-                        <div class="content-puntos">
-                            <div class="items-puntos">
-                                <div class="cuadro-puntos">
-                                    <div class="img-cuadro-punto">
-                                        <img loading="lazy" src="<?php echo RUTA_IMG?>home/p_1.png" draggable="false"
-                                            class="img-fluid" />
+                        <div class="grid-puntos">
+                            <div class="title-puntos">
+                                <h2>
+                                    puntos a inspeccionar
+                                </h2>
+                            </div>
+                            <div class="content-puntos">
+                                <div class="items-puntos">
+                                    <div class="cuadro-puntos">
+                                        <div class="img-cuadro-punto">
+                                            <img loading="lazy" src="<?php echo RUTA_IMG?>home/p_1.png"
+                                                draggable="false" class="img-fluid" />
+                                        </div>
+                                        <p>Instalaciones sanitarias, elect. y de gas.</p>
                                     </div>
-                                    <p>Instalaciones sanitarias, elect. y de gas.</p>
+                                </div>
+                                <div class="items-puntos">
+                                    <div class="cuadro-puntos">
+                                        <div class="img-cuadro-punto">
+                                            <img loading="lazy" src="<?php echo RUTA_IMG?>home/p_2.png"
+                                                draggable="false" class="img-fluid" />
+                                        </div>
+                                        <p>Medición de dimensiones.</p>
+                                    </div>
+                                </div>
+                                <div class="items-puntos">
+                                    <div class="cuadro-puntos">
+                                        <div class="img-cuadro-punto">
+                                            <img loading="lazy" src="<?php echo RUTA_IMG?>home/p_3.png"
+                                                draggable="false" class="img-fluid" />
+                                        </div>
+                                        <p>Inspección de acabados.</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="items-puntos">
-                                <div class="cuadro-puntos">
-                                    <div class="img-cuadro-punto">
-                                        <img loading="lazy" src="<?php echo RUTA_IMG?>home/p_2.png" draggable="false"
-                                            class="img-fluid" />
-                                    </div>
-                                    <p>Medición de dimensiones.</p>
-                                </div>
-                            </div>
-                            <div class="items-puntos">
-                                <div class="cuadro-puntos">
-                                    <div class="img-cuadro-punto">
-                                        <img loading="lazy" src="<?php echo RUTA_IMG?>home/p_3.png" draggable="false"
-                                            class="img-fluid" />
-                                    </div>
-                                    <p>Inspección de acabados.</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="items-flujo wow fadeIn" data-wow-delay="0.4s">
-                    <div class="title-flujo">
-                        <h3></h3>
-                    </div>
-
-                    <div class="w-timeline">
-                        <ul class="list_timeline">
-                            <li>
-                                <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_1.png" draggable="false"
-                                    class="img-fluid" /><br>
-                            </li>
-                            <li>
-                                <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_2.png" draggable="false"
-                                    class="img-fluid" /><br>
-
-                            </li>
-                            <li>
-                                <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_3.png" draggable="false"
-                                    class="img-fluid" /><br>
-                            </li>
-                            <li>
-                                <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_4.png" draggable="false"
-                                    class="img-fluid" /><br>
-                            </li>
-                            <li>
-                                <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_5.png" draggable="false"
-                                    class="img-fluid" /><br>
-                            </li>
-                            <li>
-                                <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_6.png" draggable="false"
-                                    class="img-fluid" /><br>
-                            </li>
-                        </ul>
-                        <div class="img-line">
-                            <img src="<?php echo RUTA_IMG?>home/line.png" draggable="false" class="img-fluid" /><br>
+                    <div class="items-flujo wow fadeIn" data-wow-delay="0.4s">
+                        <div class="title-flujo">
+                            <h3></h3>
                         </div>
-                        <ul class="list_timeline">
-                            <li>
-                                <p>Cotización</p>
-                            </li>
-                            <li>
-                                <p>Agendar inspección</p>
-                            </li>
-                            <li>
-                                <p>Visita de inspección</p>
-                            </li>
-                            <li>
-                                <p>Informe HouseCheckers</p>
-                            </li>
-                            <li>
-                                <p>Inmobiliaria <br>atiende observaciones</p>
-                            </li>
-                            <li>
-                                <p>Recepción de inmueble inspeccionado</p>
-                            </li>
-                        </ul>
-                    </div>
 
-                    <div class="m-timeline">
-                        <ul class="list_timeline-m">
-                            <li>
-                                <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_1.png" draggable="false"
-                                    class="img-fluid" />
-                                <p>Cotización</p>
-                            </li>
-                            <li>
-                                <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_2.png" draggable="false"
-                                    class="img-fluid" />
-                                <p>Agendar inspección</p>
-                            </li>
-                            <li>
-                                <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_3.png" draggable="false"
-                                    class="img-fluid" />
-                                <p>Agendar inspección</p>
-                            </li>
-                            <li>
-                                <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_4.png" draggable="false"
-                                    class="img-fluid" />
-                                <p>Informe HouseCheckers</p>
-                            </li>
-                            <li>
-                                <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_5.png" draggable="false"
-                                    class="img-fluid" />
-                                <p>Inmobiliaria <br>atiende observaciones</p>
-                            </li>
-                            <li>
-                                <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_6.png" draggable="false"
-                                    class="img-fluid" />
-                                <p>Recepción de inmueble inspeccionado</p>
-                            </li>
-                        </ul>
+                        <div class="w-timeline">
+                            <ul class="list_timeline">
+                                <li>
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_1.png" draggable="false"
+                                        class="img-fluid" /><br>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_2.png" draggable="false"
+                                        class="img-fluid" /><br>
 
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_3.png" draggable="false"
+                                        class="img-fluid" /><br>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_4.png" draggable="false"
+                                        class="img-fluid" /><br>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_5.png" draggable="false"
+                                        class="img-fluid" /><br>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_6.png" draggable="false"
+                                        class="img-fluid" /><br>
+                                </li>
+                            </ul>
+                            <div class="img-line">
+                                <img src="<?php echo RUTA_IMG?>home/line.png" draggable="false" class="img-fluid" /><br>
+                            </div>
+                            <ul class="list_timeline">
+                                <li>
+                                    <p>Cotización</p>
+                                </li>
+                                <li>
+                                    <p>Agendar inspección</p>
+                                </li>
+                                <li>
+                                    <p>Visita de inspección</p>
+                                </li>
+                                <li>
+                                    <p>Informe HouseCheckers</p>
+                                </li>
+                                <li>
+                                    <p>Inmobiliaria <br>atiende observaciones</p>
+                                </li>
+                                <li>
+                                    <p>Recepción de inmueble inspeccionado</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="m-timeline">
+                            <ul class="list_timeline-m">
+                                <li>
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_1.png" draggable="false"
+                                        class="img-fluid" />
+                                    <p>Cotización</p>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_2.png" draggable="false"
+                                        class="img-fluid" />
+                                    <p>Agendar inspección</p>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_3.png" draggable="false"
+                                        class="img-fluid" />
+                                    <p>Agendar inspección</p>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_4.png" draggable="false"
+                                        class="img-fluid" />
+                                    <p>Informe HouseCheckers</p>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_5.png" draggable="false"
+                                        class="img-fluid" />
+                                    <p>Inmobiliaria <br>atiende observaciones</p>
+                                </li>
+                                <li>
+                                    <img loading="lazy" src="<?php echo RUTA_IMG?>home/f_6.png" draggable="false"
+                                        class="img-fluid" />
+                                    <p>Recepción de inmueble inspeccionado</p>
+                                </li>
+                            </ul>
+
+                        </div>
                     </div>
                 </div>
             </div>

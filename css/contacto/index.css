@@ -3,10 +3,11 @@
   margin-bottom: 50px;
 }
 .bg-contacto2 {
-  background: url(../../images/contacto/bg_contacto.png) no-repeat top;
+  position: relative;
+  /* background: url(../../images/contacto/bg_contacto.png) no-repeat top;
   height: 140vh;
   background-position: left;
-  padding: 0 20px;
+  padding: 0 20px; */
 }
 .content-contacto-info {
   display: grid;
@@ -17,22 +18,22 @@
   text-align: center;
   max-width: 550px;
   margin: auto;
+  padding: 0 20px;
 }
 .descriptions-contacto h2 {
   font-family: "Gilroy Medium";
   font-size: 20px;
   letter-spacing: 10px;
   text-transform: uppercase;
-  padding-bottom: 10px;
 }
 .descriptions-contacto h1 {
   font-family: "Gilroy Black";
   font-size: 40px;
-  padding-bottom: 10px;
 }
 .descriptions-contacto p {
   font-family: "Gilroy Regular";
   font-size: 13px;
+  max-width: 420px;
 }
 .list_contacto {
   padding-left: 2em;
@@ -120,10 +121,21 @@
   border-right: 6px solid transparent;
   pointer-events: none;
 }
+.info-formulario {
+  text-align: center;
+  padding-top: 1em;
+}
 @media screen and (min-width: 768px) {
+  .info-formulario {
+    text-align: initial;
+    padding-top: 0em;
+  }
+  .descriptions-contacto {
+    padding: 0 0;
+  }
   .descriptions-contacto h1 {
     font-size: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
   }
   .descriptions-contacto h2 {
     letter-spacing: 20px;
@@ -131,8 +143,8 @@
     padding-bottom: 40px;
   }
   .bg-contacto2 {
-    height: 125vh;
-    padding: 0 0;
+    /* height: 125vh;
+    padding: 0 0; */
   }
   .grid-formulario {
     display: grid;
@@ -149,5 +161,8 @@
   .grid-formulario {
     grid-template-columns: 65% 20%;
     grid-gap: 8em;
+  }
+  .descriptions-contacto h1 {
+    padding-bottom: 60px;
   }
 }

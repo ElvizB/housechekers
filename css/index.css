@@ -148,14 +148,11 @@ b {
   color: black;
 }
 /***************************************/
-.bg-servicio {
-  background: none;
-}
 .items-servicios {
   display: flex;
   flex-direction: column;
   gap: 0em;
-  padding-bottom: 90px;
+  padding-bottom: 70px;
 }
 .content-items-servicios {
   display: grid;
@@ -206,9 +203,10 @@ b {
   text-align: center;
   transition: all 0.3s;
   padding-bottom: 3em;
+  display: none;
 }
 .title-flujo {
-  padding-bottom: 41px;
+  padding-bottom: 10px;
 }
 .title-flujo h3 {
   font-family: "Gilroy Regular";
@@ -244,6 +242,7 @@ b {
   align-items: baseline;
   padding: 0;
   grid-gap: 2.5em;
+  grid-template-columns: repeat(2, 1fr);
 }
 .list_timeline-m li p {
   padding-top: 1em;
@@ -258,7 +257,7 @@ b {
   margin: 0;
 }
 .servicio {
-  padding: 40px 0;
+  /* padding: 40px 0; */
 }
 .w-timeline {
   display: none;
@@ -275,6 +274,13 @@ b {
   max-width: 900px;
   margin: auto;
   height: 100%;
+}
+.bgser-img {
+  width: 100%;
+  object-fit: cover;
+}
+.bg-servicio {
+  position: relative;
 }
 
 @media screen and (min-width: 768px) {
@@ -299,7 +305,7 @@ b {
   .items-servicios {
     flex-direction: initial;
     gap: 3em;
-    padding-bottom: 180px;
+    padding-bottom: 160px;
   }
   .content-puntos {
     grid-template-columns: repeat(3, 1fr);
@@ -311,10 +317,10 @@ b {
     margin: inherit;
     text-align: initial;
   }
-  .bg-servicio {
-    background: url(../images/home/bg_hc.png) no-repeat top;
-    height: 100vh;
-    background-position: left;
+
+  .bgser-img {
+    width: initial;
+    object-fit: cover;
   }
   .w-timeline {
     display: block;
@@ -328,6 +334,12 @@ b {
   }
   .title-derechos {
     padding: 0 0 30px;
+  }
+  .title-flujo {
+    padding-bottom: 41px;
+  }
+  .img-puntos {
+    display: block;
   }
 }
 
