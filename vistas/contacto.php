@@ -17,7 +17,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
             <div class="u-content-house">
                 <div class="content-contacto-info">
                     <div class="descriptions-contacto">
-                        <h2>house checker</h2>
+                        <h2>house checkers</h2>
                         <h1>Contáctenos</h1>
                         <p>Utiliza el siguiente formulario para ponerte en contacto con nosotros.
                             Nuestros asesores se contactarán contigo lo antes posible.
@@ -84,6 +84,74 @@ include_once 'plantillas/documento-declaracion.inc.php';
 
                                                 </select>
                                             </div>
+                                        </div>
+
+                                        <div class="custom-control custom-checkbox mt-4 pl-5">
+                                            <div class="check-modal">
+                                                <p for="" data-toggle="modal" data-target="#modalCart" class="terminos">
+                                                    Acepto Términos y
+                                                    condiciones</p>
+                                                <input type="checkbox" class="custom-control-input"
+                                                    id="defaultRegisterFormNewsletter"
+                                                    name="defaultRegisterFormNewsletter">
+                                                <label class="custom-control-label small font-AvenirMe"
+                                                    for="defaultRegisterFormNewsletter">
+                                                </label>
+                                            </div>
+
+                                            <!-- Modal: modalCart -->
+                                            <div class=" modal fade" id="modalCart" tabindex="-1" role="dialog"
+                                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                                    <div class="modal-content">
+                                                        <!--Header-->
+                                                        <div class="modal-header z-depth-1"
+                                                            style="background: #818181 !important;">
+                                                            <h5 class="modal-title text-white font-AvenirProLTB"
+                                                                id="myModalLabel">
+                                                                Términos y
+                                                                condiciones
+                                                            </h5>
+                                                            <!-- <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                 <span aria-hidden="true" class="text-white">×</span>--->
+                                                            </button>
+                                                        </div>
+                                                        <!--Body-->
+                                                        <div class="modal-body">
+                                                            <p>
+                                                                De conformidad con la Ley N° 29733, Ley de
+                                                                Protección de
+                                                                Datos Personales, el usuario da su consentimiento
+                                                                para
+                                                                el tratamiento de los datos personales que son
+                                                                facilitados en el presente formulario o por
+                                                                cualquier
+                                                                medio desde el momento de su ingreso o utilización
+                                                                del
+                                                                portal.
+                                                            </p>
+                                                            <p>
+                                                                Estos serán incorporados en el banco de datos de
+                                                                usuarios de HouseCheckers, para utilizarlos en
+                                                                seguimiento comercial, para fines estadísticos,
+                                                                gestiones institucionales y administrativas; y se
+                                                                mantendrán mientras sean útiles para que la empresa
+                                                                pueda prestar y ofrecer sus servicios.
+                                                            </p>
+
+                                                        </div>
+                                                        <!--Footer-->
+                                                        <div class="modal-footer">
+                                                            <button type="button"
+                                                                class="btn btn-contact btn-md btn-block "
+                                                                data-dismiss="modal">Cerrar</button>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Modal: modalCart -->
                                         </div>
 
                                         <div class="md-form">

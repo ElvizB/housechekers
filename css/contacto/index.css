@@ -125,6 +125,21 @@
   text-align: center;
   padding-top: 1em;
 }
+.custom-control-label::before {
+  left: 1em;
+}
+.custom-control-label::after {
+  left: 1em;
+}
+.check-modal {
+  display: flex;
+  padding-left: 3em;
+}
+.terminos {
+  font-family: "Gilroy Regular";
+  font-size: 13px;
+  cursor: pointer;
+}
 @media screen and (min-width: 768px) {
   .list_contacto {
     list-style-image: url(./../../images/contacto/flecha.png);

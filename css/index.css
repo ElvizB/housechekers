@@ -176,6 +176,8 @@ b {
   display: grid;
   grid-gap: 2em;
   justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
 }
 .items-puntos {
   background: white;

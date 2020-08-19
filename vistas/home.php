@@ -112,7 +112,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
 
 <section class=" servicio">
     <div class="bg-servicio">
-        <img loading="lazy" src="<?php echo RUTA_IMG?>home/bg_hc.png" draggable="false" height="1201"
+        <img loading="lazy" src="<?php echo RUTA_IMG?>home/bg_hc.png" draggable="false" height="921"
             class="bgser-img" />
         <div class="center-info-home">
             <div class="u-content-house">
@@ -135,7 +135,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                             <img loading="lazy" src="<?php echo RUTA_IMG?>home/p_1.png"
                                                 draggable="false" class="img-fluid" />
                                         </div>
-                                        <p>Instalaciones sanitarias, elect. y de gas.</p>
+                                        <p>Instalaciones sanitarias, elect. y de gas</p>
                                     </div>
                                 </div>
                                 <div class="items-puntos">
@@ -144,7 +144,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                             <img loading="lazy" src="<?php echo RUTA_IMG?>home/p_2.png"
                                                 draggable="false" class="img-fluid" />
                                         </div>
-                                        <p>Medición de dimensiones.</p>
+                                        <p>Medición de dimensiones</p>
                                     </div>
                                 </div>
                                 <div class="items-puntos">
@@ -153,7 +153,7 @@ include_once 'plantillas/documento-declaracion.inc.php';
                                             <img loading="lazy" src="<?php echo RUTA_IMG?>home/p_3.png"
                                                 draggable="false" class="img-fluid" />
                                         </div>
-                                        <p>Inspección de acabados.</p>
+                                        <p>Inspección de acabados</p>
                                     </div>
                                 </div>
                             </div>
@@ -330,9 +330,8 @@ include_once 'plantillas/documento-declaracion.inc.php';
         <div class="grid-nota wow fadeIn" data-wow-delay="0.4s">
             <p class="u-comillas">"</p>
             <p class="title-nota">
-                Los procesos constructivos involucran muchas especialidades complejas de gestionar. Lo
-                que buscamos en
-                HouseCheckers es garantizar que los errores de la construcción no opaquen la ilusión de
+                Los procesos constructivos involucran muchas especialidades complejas de gestionar. En
+                HouseCheckers buscamos garantizar que los errores de la construcción no opaquen la ilusión de
                 la entrega de tu
                 departamento.
             </p>
