@@ -9,7 +9,7 @@
 //https://houseckeers.herokuapp.com/
 //http://localhost/housechekers
 
-define("SERVIDOR", "http://localhost/housechekers");
+define("SERVIDOR", "https://houseckeers.herokuapp.com/");
 define("RUTA_MOSOTROS", SERVIDOR."sobre-nosotros");
 define("RUTA_CONTACTO", SERVIDOR."contacto");
 define("RUTA_PLANES", SERVIDOR."planes");
